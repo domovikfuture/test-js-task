@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  gap: 40px;
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  height: min-content;
+  margin-bottom: 10px;
+	border: 1px solid gray;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+  padding: 8px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+span {
+  line-height: 24px;
+}
